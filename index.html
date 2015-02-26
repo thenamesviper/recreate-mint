@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<title>Mint Form Recreation</title>
+<meta charset = "UTF-8">
+<link rel = "stylesheet" href = "style.css">
+<link rel = "shortcut icon" href = "minticon.png">
+</head>
+
+<body>
+	<div id = "logoheader">
+		<div id = "logo">
+			<img src = "mintlogo.png" alt = "Logo for Mint"/>
+		</div>
+		<div id = "signuplogin">
+			<ul>
+				<li><strong>Sign Up</strong></li>
+				<li>Log In</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id = "maincontent">
+		<h1>Create a New Account</h1>
+		<div id = "signup">
+			<form id = "onlyform" method = "GET" action = "example.php">
+				<label for= "email">Your Email</label><br/>
+				<input type = "email" name = "email" id = "email" autofocus><br/>
+				<label for= "confirmemail">Confirm Email</label><br/>
+				<input type = "email" name = "confirmemail" id = "confirmemail"><br/>
+				<label for = "country">Country</label><br/>
+				<select name = "country" id = "country">
+					<option value = "unitedstates">United States</option>
+					<option value = "canada">Canada</option>
+				</select><br/>
+				<label for = "zipcode"><br/>Zip Code</label><br/>
+				<input type = "text" name = "zipcode" id = "zipcode" maxlength = 5><br/>
+				<label for = "loginpassword">Password</label><br/>
+				<input type = "password" name = "loginpassword" id = "loginpassword"><br/>
+				<label for = "confirmpassword">Confirm Password</label><br/>
+				<input type = "password" name = "confirmpassword" id = "confirmpassword"><br/>
+				<input type = "checkbox" name = "agreetos" id = "agreetos">
+				<label for = "agreetos">Yes, I agree to the Mint <a href = "https://www.mint.com/how-it-works/security/terms/">Terms of Use.</a><br/>
+				<input type = "submit" value = "Sign Up" name = "submit" id = "submit">
+			</form>	
+		</div>
+		<div id = "aboutit">
+			<div id = "whyloveit">
+				<h1>Why you'll love it</h1>
+				<ul>
+					<li>See all your accounts in one place</li>
+					<li>Set a budget and pay down your debt</li>
+					<li>Find the best ways to grow your money</li>
+					<li>Stay <a href = "http://www.mint.com/privacy/">safe and secure<a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<ul>
+			<li><a href = "https://mint.lc.intuit.com/">Support Community</a></li>
+			<li><a href = "http://www.mint.com/terms">Terms of Use</a></li>
+			<li><a href = "http://www.mint.com/privacy">Privacy</a></li>
+			<li><a href = "http://about.intuit.com/legal/">Legal and Trademark Notices</a></li>
+			<li><a href = "http://about.intuit.com/about_intuit/">About Intuit</a></li>
+		</ul>
+		<ul id = "footerlogos">
+			<li><a href = "https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=wwws.mint.com&lang=en">
+				<img src = "norton.png" alt = "Norton security"/>
+				</a></li>
+			<li><a href = "http://www.truste.org/ivalidate.php?url=www.mint.com&sealid=101">
+				<img src = "truste.png" alt = "Truste Certified Privacy"/>
+				</a></li>
+		</ul>
+		<p>2014 Intuit, Inc. |  ph6644.6 - spa46.9</p>
+	</footer>
+	<br/><br/><br/>
+</body>
+</html>
